@@ -1,0 +1,101 @@
+.darkTheme .embed-buttons-wrapper>div:before, .lightTheme .embed-buttons-wrapper>div:before {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 33%, rgb(251, 239, 255) 100%);
+}
+
+div.embed-container {
+    background-color: var(--black6);
+}
+
+div.embed-screen {
+    --black9: #aa0093;
+    --black6: #000000;
+    --black4: #000000;
+    --black5: #aa00928f;
+    --black3: #A2AAB4;
+    --black2: #fa00ff;
+    --black1: #fa00ff;
+    --black0: #f0afff;
+    --white: #fbefff;
+    --black: #121417;
+    --purple6: #b83ebf;
+}
+
+.embed-variant-header.active {
+    border-width: 2px;
+}
+
+.embed-gateway-container .gateway-list-item {
+    border-width: 2px;
+}
+
+.embed-container, .embed-header, .embed-counter, .sellix-product-rewards, .embed-volume, .embed-coupon-input, .embed-coupon-applied, input.sellix-input, .gateway-list-item, .embed-variant-header, .embed-addons {
+    background-color: var(--black6) !important;
+}
+
+.sellix-input-with-currency-wrapper input {
+    background-color: var(--black6) !important;
+}
+
+button.sellix-button {
+    background-color: var(--purple6) !important;
+}
+
+.gateway-list-item-blockchain.bg-white {
+    background-color: var(--black6) !important;
+}
+
+input.sellix-input {
+    background-color: var(--black5) !important;
+}
+
+input.sellix-input::placeholder {
+    color: var(--black6);
+}
+
+.embed-stock {
+    color: var(--purple6);
+}
+
+.embed-footer-item:hover {
+    background: #0000004d !important;
+}
+
+.sellix-product-rewards-list-row-title {
+    color: #ffffff80;
+}
+
+.gateway-title, .gateway-list-item-title>div:first-child {
+    color: var(--white);
+}
+
+.gateway-subtitle, .gateway-list-item-title>div:last-child {
+    color: var(--black5);
+}
+
+.embed-gateway-container .gateway-list-item {
+    border-color: var(--black5) !important;
+}
+
+.embed-gateway-container .gateway-list-item.active {
+    border-color: var(--black9) !important;
+}
+
+.sellix-button {
+    color: var(--black6);
+}
+
+.gateway-list-item.active {
+    box-shadow: transparent 0 0 0 0, transparent 0 0 0 0, rgba(18,20,23,.06) 0 1px 2px 0;
+}
+
+.item-first>g rect, .item-second>g rect {
+    fill: #2e2e2e;
+}
+
+.item-first>mask+g rect, .item-second>mask+g rect {
+    fill: #000;
+}
+
+.item-first>mask+g path, .item-second>mask+g path {
+    fill: #2e2e2e;
+}
